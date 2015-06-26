@@ -1,0 +1,1 @@
+cmd_Release/SSPWrapper.node := ln -f "Release/obj.target/SSPWrapper.node" "Release/SSPWrapper.node" 2>/dev/null || (rm -rf "Release/SSPWrapper.node" && cp -af "Release/obj.target/SSPWrapper.node" "Release/SSPWrapper.node")
